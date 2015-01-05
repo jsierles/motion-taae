@@ -1,0 +1,19 @@
+PODS:
+  - TheAmazingAudioEngine (1.4.5)
+
+DEPENDENCIES:
+  - TheAmazingAudioEngine (from `https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine`)
+
+EXTERNAL SOURCES:
+  TheAmazingAudioEngine:
+    :git: https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine
+
+CHECKOUT OPTIONS:
+  TheAmazingAudioEngine:
+    :commit: cad53f6f8a667d325ad803ede14697e8f2d0ba46
+    :git: https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine
+
+SPEC CHECKSUMS:
+  TheAmazingAudioEngine: cfa3a05f3a55f76a979595401601cbc9f27a3123
+
+COCOAPODS: 0.35.0
