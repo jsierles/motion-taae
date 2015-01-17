@@ -14,4 +14,7 @@ Motion::Project::App.setup do |app|
   app.pods do
     pod 'TheAmazingAudioEngine', git: "https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine"
   end
+
+  taae_patch = File.expand_path(File.join(File.dirname(__FILE__), "./vendor/TAAERubyMotion"))
+  app.vendor_project(taae_patch, :static, :bridgesupport_cflags => "-I#{Dir.pwd}/vendor/Pods/Headers", :cflags => "-I#{Dir.pwd}/vendor/Pods/Headers")
 end

@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='AEBlockChannel'>
+<method selector='channelWithBlock:' class_method='true'>
+<arg index='0' declared_type='AEBlockChannelBlock' function_pointer='true' name='block' type='@?'>
+<arg const='true' declared_type='AudioTimeStamp*' type='^{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}'/>
+<arg declared_type='UInt32' type64='I' type='L'/>
+<arg declared_type='AudioBufferList*' type='^{AudioBufferList=I[1{AudioBuffer=II^v}]}'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='AEBlockChannel*' type='@'/>
+</method>
+</class>
+</signatures>
